@@ -13,3 +13,4 @@ This script will monitor the size of the logfiles, if a log file exceeds the max
 
 Disk Space Monitor
 Usage: sudo ./disk_size_monitor.sh
+This script monitors disk space. If the disk space exceeds the threashold then you should get a screen alert alog with a log file with the alert, indicating a potential attack. You can run this tool in the background or as a cronj job.
