@@ -22,7 +22,7 @@ resolve() {
 }
 
 # Function to perfomr a reverse DNS lookup
-reverse_looup() {
+reverse_lookup() {
 	local ip="$1"
 	dig +short -x "$ip" | sed 's/\.$//'
 }
