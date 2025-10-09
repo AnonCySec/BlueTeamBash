@@ -15,6 +15,6 @@ Disk Space Monitor
 Usage: sudo ./disk_size_monitor.sh
 This script monitors disk space. If the disk space exceeds the threashold then you should get a screen alert alog with a log file with the alert, indicating a potential attack. You can run this tool in the background or as a cronj job.
 
-Network COnnection Monitor
+Network Connection Monitor
 Usage: ./network_connection_monitor.sh
 This script monitors suspicious network conection by comparing active connections against a list of known, trusted hosts.
