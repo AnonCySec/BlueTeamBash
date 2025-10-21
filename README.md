@@ -19,6 +19,10 @@ Network Connection Monito
 Usage: ./network_connection_monitor.sh
 This script monitors suspicious network conection by comparing active connections against a list of known, trusted hosts.
 
+Simple Audit
+Usage: sudo ./simple_audit.sh
+This script checks a Linux systyem for potential missconfigurations, and creates a log file to the user's home directory.
+
 # Credential Harvesting and System Info
 
 System Information
